@@ -165,6 +165,7 @@
 
       *>Moves the tail of the snake
        move-tail section.
+      *
        if add-length = 0
            display " " line tail-row(tail-length) column tail-col(tail-length)
            move tail-row(tail-length) to ws-row
